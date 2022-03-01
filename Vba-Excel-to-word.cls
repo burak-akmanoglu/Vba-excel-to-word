@@ -1,4 +1,4 @@
-
+/* Hello world */
 Option Explicit
 
 Sub excel_to_word()
