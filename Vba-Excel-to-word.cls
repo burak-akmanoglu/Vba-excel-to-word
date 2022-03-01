@@ -28,7 +28,7 @@ End If
 
 Else
 End If
-
+                                Hello world
 
 Set newdocument = wrd.Documents.Add()
 newdocument.Content.Paste
