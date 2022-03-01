@@ -7,10 +7,10 @@ Dim newdocument As Word.Document
 Set newdocument = wrd.Documents.Add()
 
 Dim abc As String
-abc = InputBox(Prompt:="Þube adýný girin")
+abc = InputBox(Prompt:="Ãžube adÃ½nÃ½ girin")
 
 Dim xyz As String
-xyz = InputBox(Prompt:="Müþteri adýný giriniz")
+xyz = InputBox(Prompt:="MÃ¼Ã¾teri adÃ½nÃ½ giriniz")
 
 Dim myrng As excel.Range
 Set myrng = Me.Range("A1:O55")
@@ -33,6 +33,8 @@ End If
 Set newdocument = wrd.Documents.Add()
 newdocument.Content.Paste
 Next
+        
+        input ("very good")
 newdocument.Content.InsertBefore Text:="this" & abc & xyz
 newdocument.SaveAs2 Filename:=abc & "_" & xyz
 newdocument.Close
